@@ -119,6 +119,7 @@ public void tofield() throws IOException
       WebDriverWait wait2 = new WebDriverWait(driver, 10);
       wait2.until(ExpectedConditions.elementToBeClickable(By.xpath("(//input[@type='text'])[3]"))).click();
 }
+
 @AfterSuite
 public void close()
 	      {   
