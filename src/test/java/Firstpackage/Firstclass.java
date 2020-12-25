@@ -98,7 +98,6 @@ public void password() throws IOException
       JavascriptExecutor js = (JavascriptExecutor) driver;
       js.executeScript("arguments[0].click();", button);
     }
-
 @Test
 public void password1() throws IOException, InterruptedException
 {
