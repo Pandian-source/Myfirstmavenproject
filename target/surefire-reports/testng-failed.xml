@@ -6,7 +6,7 @@
       <class name="Firstpackage.Firstclass">
         <methods>
           <include name="close"/>
-          <include name="username"/>
+          <include name="password1"/>
           <include name="loginbutton"/>
           <include name="Openbrowser"/>
         </methods>

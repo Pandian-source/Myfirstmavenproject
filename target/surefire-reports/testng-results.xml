@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="81284" started-at="2020-11-28T15:55:06 IST" finished-at="2020-11-28T15:56:27 IST">
+  <suite name="Suite" duration-ms="52961" started-at="2020-12-24T21:01:28 IST" finished-at="2020-12-24T21:02:21 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="81284" started-at="2020-11-28T15:55:06 IST" finished-at="2020-11-28T15:56:27 IST">
+    <test name="Test" duration-ms="52961" started-at="2020-12-24T21:01:28 IST" finished-at="2020-12-24T21:02:21 IST">
       <class name="Firstpackage.Firstclass">
-        <test-method status="PASS" signature="Openbrowser()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="Openbrowser" is-config="true" duration-ms="177" started-at="2020-11-28T15:55:06 IST" finished-at="2020-11-28T15:55:06 IST">
+        <test-method status="PASS" signature="Openbrowser()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="Openbrowser" is-config="true" duration-ms="78" started-at="2020-12-24T21:01:28 IST" finished-at="2020-12-24T21:01:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Openbrowser -->
-        <test-method status="PASS" signature="gettitle()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="gettitle" duration-ms="18725" started-at="2020-11-28T15:55:06 IST" finished-at="2020-11-28T15:55:25 IST">
+        <test-method status="PASS" signature="gettitle()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="gettitle" duration-ms="12256" started-at="2020-12-24T21:01:28 IST" finished-at="2020-12-24T21:01:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gettitle -->
-        <test-method status="FAIL" signature="loginbutton()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="loginbutton" duration-ms="10318" started-at="2020-11-28T15:55:25 IST" finished-at="2020-11-28T15:55:35 IST">
+        <test-method status="FAIL" signature="loginbutton()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="loginbutton" duration-ms="10260" started-at="2020-12-24T21:01:41 IST" finished-at="2020-12-24T21:01:51 IST">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: .//a[1][@class="hero-login-link btn btn-primary"] (tried for 10 second(s) with 500 milliseconds interval)]]>
@@ -58,13 +58,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//a[1][@class="hero-login-link btn btn-primary"]"}
-  (Session info: chrome=86.0.4240.198)
+  (Session info: chrome=87.0.4280.88)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-CLIP7DDS', ip: '192.168.1.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'LAPTOP-CLIP7DDS', ip: '10.0.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pandiyan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8744a20d4aad75aa00a8ade4b6adbe36
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pandiyan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 627e3f52944f6c02d796da1041d8c600
 *** Element info: {Using=xpath, value=.//a[1][@class="hero-login-link btn btn-primary"]}
 at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -89,37 +89,33 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginbutton -->
-        <test-method status="PASS" signature="password()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="password" duration-ms="396" started-at="2020-11-28T15:55:35 IST" finished-at="2020-11-28T15:55:35 IST">
+        <test-method status="PASS" signature="password()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="password" duration-ms="185" started-at="2020-12-24T21:01:51 IST" finished-at="2020-12-24T21:01:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- password -->
-        <test-method status="PASS" signature="password1()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="password1" duration-ms="21713" started-at="2020-11-28T15:55:35 IST" finished-at="2020-11-28T15:55:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- password1 -->
-        <test-method status="FAIL" signature="username()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="username" duration-ms="30078" started-at="2020-11-28T15:55:57 IST" finished-at="2020-11-28T15:56:27 IST">
+        <test-method status="FAIL" signature="password1()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="password1" duration-ms="30040" started-at="2020-12-24T21:01:51 IST" finished-at="2020-12-24T21:02:21 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":".//input[@placeholder="Your Email *"]"}
-  (Session info: chrome=86.0.4240.198)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":".//span[text()="ClaritySSO"]/following::input[@placeholder="From?"]"}
+  (Session info: chrome=87.0.4280.88)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-CLIP7DDS', ip: '192.168.1.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'LAPTOP-CLIP7DDS', ip: '10.0.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pandiyan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8744a20d4aad75aa00a8ade4b6adbe36
-*** Element info: {Using=xpath, value=.//input[@placeholder="Your Email *"]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pandiyan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 627e3f52944f6c02d796da1041d8c600
+*** Element info: {Using=xpath, value=.//span[text()="ClaritySSO"]/following::input[@placeholder="From?"]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//input[@placeholder="Your Email *"]"}
-  (Session info: chrome=86.0.4240.198)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//span[text()="ClaritySSO"]/following::input[@placeholder="From?"]"}
+  (Session info: chrome=87.0.4280.88)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-CLIP7DDS', ip: '192.168.1.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'LAPTOP-CLIP7DDS', ip: '10.0.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pandiyan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8744a20d4aad75aa00a8ade4b6adbe36
-*** Element info: {Using=xpath, value=.//input[@placeholder="Your Email *"]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pandiyan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 627e3f52944f6c02d796da1041d8c600
+*** Element info: {Using=xpath, value=.//span[text()="ClaritySSO"]/following::input[@placeholder="From?"]}
 at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 at java.lang.reflect.Constructor.newInstance(Unknown Source)
@@ -133,7 +129,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at Firstpackage.Firstclass.username(Firstclass.java:93)
+at Firstpackage.Firstclass.password1(Firstclass.java:120)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -171,8 +167,12 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- password1 -->
+        <test-method status="PASS" signature="username()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="username" duration-ms="193" started-at="2020-12-24T21:02:21 IST" finished-at="2020-12-24T21:02:21 IST">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- username -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="close" is-config="true" duration-ms="530" started-at="2020-11-28T15:56:27 IST" finished-at="2020-11-28T15:56:28 IST">
+        <test-method status="PASS" signature="close()[pri:0, instance:Firstpackage.Firstclass@6adede5]" name="close" is-config="true" duration-ms="284" started-at="2020-12-24T21:02:21 IST" finished-at="2020-12-24T21:02:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
