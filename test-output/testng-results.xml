@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43183" started-at="2020-12-25T17:03:05 IST" finished-at="2020-12-25T17:03:48 IST">
+  <suite name="Default suite" duration-ms="104026" started-at="2021-03-20T15:07:23 IST" finished-at="2021-03-20T15:09:07 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43183" started-at="2020-12-25T17:03:05 IST" finished-at="2020-12-25T17:03:48 IST">
-      <class name="Firstpackage.Firstclass">
-        <test-method status="PASS" signature="Openbrowser()[pri:0, instance:Firstpackage.Firstclass@d44fc21]" name="Openbrowser" is-config="true" duration-ms="83" started-at="2020-12-25T17:03:04 IST" finished-at="2020-12-25T17:03:05 IST">
+    <test name="Default test" duration-ms="104026" started-at="2021-03-20T15:07:23 IST" finished-at="2021-03-20T15:09:07 IST">
+      <class name="Firstpackage.Headlessunit">
+        <test-method status="PASS" signature="Openbrowser()[pri:0, instance:Firstpackage.Headlessunit@517cd4b]" name="Openbrowser" duration-ms="103995" started-at="2021-03-20T15:07:23 IST" finished-at="2021-03-20T15:09:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Openbrowser -->
-        <test-method status="PASS" signature="gettitle()[pri:0, instance:Firstpackage.Firstclass@d44fc21]" name="gettitle" duration-ms="11218" started-at="2020-12-25T17:03:05 IST" finished-at="2020-12-25T17:03:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gettitle -->
-        <test-method status="PASS" signature="loginbutton()[pri:0, instance:Firstpackage.Firstclass@d44fc21]" name="loginbutton" duration-ms="1294" started-at="2020-12-25T17:03:16 IST" finished-at="2020-12-25T17:03:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginbutton -->
-        <test-method status="PASS" signature="password()[pri:0, instance:Firstpackage.Firstclass@d44fc21]" name="password" duration-ms="268" started-at="2020-12-25T17:03:17 IST" finished-at="2020-12-25T17:03:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- password -->
-        <test-method status="PASS" signature="password1()[pri:0, instance:Firstpackage.Firstclass@d44fc21]" name="password1" duration-ms="30185" started-at="2020-12-25T17:03:17 IST" finished-at="2020-12-25T17:03:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- password1 -->
-        <test-method status="PASS" signature="tofield()[pri:0, instance:Firstpackage.Firstclass@d44fc21]" name="tofield" duration-ms="193" started-at="2020-12-25T17:03:48 IST" finished-at="2020-12-25T17:03:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tofield -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Firstpackage.Firstclass@d44fc21]" name="close" is-config="true" duration-ms="282" started-at="2020-12-25T17:03:48 IST" finished-at="2020-12-25T17:03:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Firstpackage.Firstclass -->
+      </class> <!-- Firstpackage.Headlessunit -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

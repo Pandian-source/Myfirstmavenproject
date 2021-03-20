@@ -3,13 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Firstpackage.Firstclass">
+      <class name="Firstpackage.Utility">
         <methods>
           <include name="close"/>
-          <include name="username"/>
+          <include name="password1"/>
+          <include name="loginbutton"/>
+          <include name="tofield"/>
           <include name="Openbrowser"/>
+          <include name="password"/>
+          <include name="gettitle"/>
         </methods>
-      </class> <!-- Firstpackage.Firstclass -->
+      </class> <!-- Firstpackage.Utility -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
